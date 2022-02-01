@@ -29,6 +29,6 @@ function compute() {
 function updateRate() {
   var inter = compute();
   var rateval = document.getElementById("rate").value;
-  document.getElementById("rate_val").innerText = rateval;
+  document.getElementById("rate_val").innerText = (rateval+"%");
   document.getElementById("result").innerText = inter;
 }
